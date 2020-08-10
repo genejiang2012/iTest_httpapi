@@ -2,6 +2,10 @@
 .vscode/
 .idea/
 .git/
+tests/report/
+tests/results/
+.pytest_cache/
+
 
 
 
