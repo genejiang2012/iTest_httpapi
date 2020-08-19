@@ -5,9 +5,7 @@
 tests/report/
 tests/results/
 .pytest_cache/
-
-
-
+PIPENV_VENV_IN_PROJECT/
 
 # ignore the files
 *.zip
