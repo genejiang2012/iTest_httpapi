@@ -94,6 +94,21 @@ class ResponseData(BaseModel):
     body: Union[Text, bytes, Dict]
 
 
-class ReqResData(BaseModel):
+class ReqRespData(BaseModel):
     request: RequestData
     response: ResponseData
+
+
+class RequestStat(BaseModel):
+    content_size: float = 0
+    response_time_ms: float = 0
+    elapsed_ms: float = 0
+
+
+class SessionData(BaseModel):
+    success: bool = False
+    req_resps: List[ReqRespData] = []
+    stat: RequestStat = RequestStat()
+    address: AddressData = AddressData()
+    validators: Dict = {}
+
