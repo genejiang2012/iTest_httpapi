@@ -3,7 +3,8 @@ config:
     host: http://web-dev2.chiefclouds.com/
     variables: {}
     verify: false
-testcase:
+teststeps:
+-
     name: /!/upm/api/login
     requests:
         method: POST
