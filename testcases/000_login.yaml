@@ -1,6 +1,6 @@
 config:
     name: test the interface of test
-    host: http://web-dev2.chiefclouds.com/
+    host: http://web-dev2.cc.com/
     variables: {}
     verify: false
 teststeps:
